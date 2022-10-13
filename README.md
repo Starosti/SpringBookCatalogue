@@ -42,7 +42,10 @@ DB_URL=jdbc:postgresql://{URL TO DATABASE}
 DB_USERNAME={USERNAME OF DB USER}
 DB_PASSWORD={PASSWORD OF DB USER}
 ```
+
 If wanted, the driver and Hibernate dialect in ```application.properties``` can be replaced to use another DBMS.
+
+Then, run the main function in ```src/main/java/com/starosti/springbookcatalogue/SpringBookCatalogueApplication.java```
 
 # Example JSON Request Snippets
 An example book defined in JSON:
