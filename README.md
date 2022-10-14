@@ -1,6 +1,6 @@
 # Spring Book Catalogue
 A basic book catalogue API made using Spring Boot and Spring JPA, using the PostgreSQL as the DBMS.
-Currently, this project features no frontend. API's are defined as follows:
+Currently, this project features no frontend. APIs are defined as follows:
 
 ```
 Note: replace fields in curly brackets with respective data. Ex: "/api/v1/book/3" to get the book with id 3.
@@ -64,7 +64,7 @@ An example book defined in JSON:
 An example author defined in JSON:
 ```json
 {
-  "name":"Starosti"
+  "name":"Starosti",
   "dateOfBirth": "1234-01-23"
 }
 ```
